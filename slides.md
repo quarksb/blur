@@ -183,10 +183,24 @@ $$
  erf(\frac{(\sqrt2\sigma_2^2+\sqrt2\sigma_1^2)x-\sqrt2r\sigma_1^2}{2\sigma_1\sigma_2\sqrt{\sigma_2^2+\sigma_1^2}})\right|_{-\infty}^{+\infty}
  \\ &=\frac {e^{-\frac {y^2}{(2\sigma_1^2+2\sigma_2^2)}}
  }{2\sqrt{2\pi}\sqrt{\sigma_2^2+\sigma_1^2}} \cdot 2
- =\frac {1}{\sqrt{2\pi}\sqrt{\sigma_2^2+\sigma_1^2}}{e^{-\frac {y^2}{(2\sqrt{\sigma_1^2+\sigma_2^2}^2)}}
- 
+ =\frac {1}{\sqrt{2\pi}\sqrt{\sigma_2^2+\sigma_1^2}}{e^{-\frac {y^2}{2\sqrt{\sigma_1^2+\sigma_2^2}^2}}
+ = f_1(\sqrt{\sigma_1^2+\sigma_2^2},y)
  }
 \end{align}
 \small
 
 $$
+
+---
+
+# Dual filter
+
+<img v-click src="https://gd-filems.dancf.com/mcm79j/mcm79j/08978/d2800f99-1cd4-455b-b1f9-5c1552202fb311900783.png" class="absolute w-100 left-20" >
+
+<img v-click src="https://gd-filems.dancf.com/mcm79j/mcm79j/08978/e05ac50a-2985-47a6-95ce-5937e1258f2711901290.png" class="absolute w-100 right-20">
+
+<img v-click src="https://gd-filems.dancf.com/mcm79j/mcm79j/08978/a091d60c-6118-4826-96f8-82fc3b5d047711901923.png" class="absolute w-100 bottom-0 left-70">
+
+---
+
+# Dual filter 计算
