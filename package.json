@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --with-clicks"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.18",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "regl": "^2.1.0"
+  },
+  "name": "blur",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "glslminify": "^0.0.1",
+    "playwright-chromium": "^1.17.1",
+    "vite-plugin-string": "^1.1.1"
+  }
+}
